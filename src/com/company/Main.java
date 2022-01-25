@@ -8,6 +8,8 @@ public class Main {
         appleRed.addPrice(50);
         Apple apple = new Apple();
         apple.addPrice(100);
+        Apple apple1 = new Apple();
+        apple.addPrice(51);
         System.out.println("Стоимость яблок " + Apple.applePrice);
     }
 
